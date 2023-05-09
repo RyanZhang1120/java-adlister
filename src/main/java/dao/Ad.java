@@ -1,4 +1,4 @@
-package models;
+package dao;
 
 public class Ad {
     private long id;

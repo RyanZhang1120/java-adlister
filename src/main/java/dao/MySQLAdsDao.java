@@ -1,8 +1,6 @@
 package dao;
 
-import models.Ad;
 import models.Ads;
-import util.Config;
 
 import java.sql.*;
 import java.util.ArrayList;

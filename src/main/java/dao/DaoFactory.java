@@ -1,7 +1,6 @@
 package dao;
 
 import models.Ads;
-import util.Config;
 
 public class DaoFactory {
     private static Ads adsDao;

@@ -1,7 +1,7 @@
 package controllers;
 
 import dao.DaoFactory;
-import models.Ad;
+import dao.Ad;
 
 public class AdsController {
     public class AdController {

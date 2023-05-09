@@ -1,6 +1,6 @@
 package models;
 
-import models.Ad;
+import dao.Ad;
 
 import java.util.List;
 
