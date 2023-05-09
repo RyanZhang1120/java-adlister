@@ -41,7 +41,7 @@ public class MySQLAdsDao implements Ads {
                 System.out.println("  Description: " + rs.getString("description"));
             }
         } catch (SQLException exception) {
-            exception.printStackTrace();;
+            exception.printStackTrace();
         }
 
         return products;
@@ -49,12 +49,7 @@ public class MySQLAdsDao implements Ads {
 
     @Override
     public Long insert(Ad ad) {
-
-
-
         try {
-
-
             long userId = ad.getUserId();
 
             String title = ad.getTitle();
