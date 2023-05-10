@@ -6,7 +6,6 @@ public class Ad {
     private String title;
     private String description;
 
-    private double price;
 
     public Ad(long id, long userId, String title, String description) {
         this.id = id;
@@ -20,15 +19,6 @@ public class Ad {
         this.title = title;
         this.description = description;
     }
-
-    public Ad(long id, String title, String description, double price, long userId) {
-
-    }
-
-    public Ad(String title, String description, double price, long userId) {
-
-    }
-
 
     public long getId() {
         return id;
@@ -60,13 +50,5 @@ public class Ad {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 }
